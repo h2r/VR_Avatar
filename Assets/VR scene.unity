@@ -1951,7 +1951,7 @@ MonoBehaviour:
   SecondsTimeout: 10
   Serializer: 0
   protocol: 0
-  RosBridgeServerUrl: ws://10.103.2.112:9090
+  RosBridgeServerUrl: ws://138.16.161.151:9090
 --- !u!114 &300047540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1964,7 +1964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe4cf3b1dd3507418f7ec019f9193ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /pti_interface_left/joint_states
+  Topic: /joint_states
   TimeStep: 0
   JointNames:
   - panda_joint1
